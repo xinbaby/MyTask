@@ -1,4 +1,15 @@
 <resources>
     <string name="app_name">MyTask</string>
     <string name="xinbaby">xinbaby</string>
+    <string name="main_question_text">Question</string>
+    <string name="main_true_text">True</string>
+    <string name="main_false_text">False</string>
+    <string name="correct_text">Correct</string>
+    <string name="incorrect_text">Incorrect</string>
+    <string name="next_button">Next</string>
+    <string name="one">this is the first one</string>
+    <string name="two">this is the second</string>
+    <string name="three">this is the three</string>
+    <string name="four">this is the four</string>
+
 </resources>

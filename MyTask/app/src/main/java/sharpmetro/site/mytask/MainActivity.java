@@ -1,9 +1,12 @@
 package sharpmetro.site.mytask;
 
+import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.TextView;
+
+import sharpmetro.site.mytask.views.QuizActivity;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -12,6 +15,7 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+        this.initUI();
     }
 
     private void initUI()
@@ -21,6 +25,8 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 //// TODO: navigate to a new activity
+                Intent intent = new Intent(MainActivity.this,QuizActivity.class);
+                startActivity(intent);
 
             }
         });

@@ -9,4 +9,42 @@
     android:paddingTop="@dimen/activity_vertical_margin"
     tools:context="sharpmetro.site.mytask.views.QuizActivity">
 
+    <LinearLayout android:layout_height="match_parent"
+        android:layout_width="match_parent"
+        android:gravity="center"
+        android:orientation="vertical">
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/main_question_text"
+            android:padding="24dp"
+            android:id="@+id/question_text_view"
+            />
+         <LinearLayout android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:orientation="horizontal">
+             <Button
+                 android:layout_width="wrap_content"
+                 android:layout_height="wrap_content"
+                 android:id="@+id/main_true_button"
+                 android:text="@string/main_true_text"
+                 />
+             <Button
+                 android:layout_width="wrap_content"
+                 android:layout_height="wrap_content"
+                 android:id="@+id/main_false_button"
+                 android:text="@string/main_false_text"/>
+             </LinearLayout>
+
+           <Button
+               android:layout_width="match_parent"
+               android:layout_height="match_parent"
+               android:text="@string/next_button"
+               android:id="@+id/next_button"
+               />
+        </LinearLayout>
 </RelativeLayout>
+
+
